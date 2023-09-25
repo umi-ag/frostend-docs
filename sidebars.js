@@ -11,13 +11,12 @@ module.exports = {
     },
     {
       type: "doc",
-      id: "FAQ",
+      id: "Roadmap",
     },
     {
       type: "category",
       label: "Protocol Mechanics",
       items: [
-        { type: "doc", id: "ProtocolMechanics/Glossary" },
         { type: "category",
         label: "Yield Tokenization",
         items: [
@@ -25,6 +24,7 @@ module.exports = {
           { type: "doc", id: "ProtocolMechanics/YieldTokenization/Minting" },
           { type: "doc", id: "ProtocolMechanics/YieldTokenization/PT" },
           { type: "doc", id: "ProtocolMechanics/YieldTokenization/YT" },
+          // { type: "doc", id: "tutorial-basics/congratulations" },
         ]
         },
         { type: "doc", id: "ProtocolMechanics/AMM" },
@@ -58,88 +58,12 @@ module.exports = {
             { type: "doc", id: "AppGuide/Trade/Pools" },
           ],
         },
-        { type: "doc", id: "AppGuide/CreatingNewPools" },
       ],
     },
     {
-      type: "category",
-      label: "Developers",
-      items: [
-        { type: "doc", id: "Developers/Overview" },
-        { type: "doc", id: "Developers/DeveloperFAQ" },
-        { type: "doc", id: "Developers/HighLevelArchitecture" },
-        {
-          type: "category",
-          label: "Contracts",
-          items: [
-            { type: "doc", id: "Developers/Contracts/FrostendRouter" },
-            { type: "doc", id: "Developers/Contracts/FrostendRouterStatic" },
-          ],
-        },
-        {
-          type: "category",
-          label: "Deployments",
-          items: [
-            { type: "doc", id: "Developers/Deployments/Ethereum" },
-            { type: "doc", id: "Developers/Deployments/Arbitrum" },
-            { type: "doc", id: "Developers/Deployments/Optimism" },
-            { type: "doc", id: "Developers/Deployments/BNBChain" },
-          ],
-        },
-        {
-          type: "category",
-          label: "Integration",
-          items: [
-            { type: "doc", id: "Developers/Integration/PTOracle" },
-            { type: "doc", id: "Developers/Integration/LPOracle" },
-            { type: "doc", id: "Developers/Integration/PTAsCollateral" },
-            { type: "doc", id: "Developers/Integration/LPAsCollateral" },
-            { type: "doc", id: "Developers/Integration/PriceImpactCalculation" },
-          ],
-        },
-        {
-          type: "category",
-          label: "SDK",
-          items: [
-            { type: "doc", id: "Developers/SDK/GettingStarted" },
-            { type: "doc", id: "Developers/SDK/WrappedContract" },
-            { type: "doc", id: "Developers/SDK/Router" },
-            { type: "doc", id: "Developers/SDK/AddingAndRemovingLiquidity" },
-            { type: "doc", id: "Developers/SDK/PTAndYTTrading" },
-            { type: "doc", id: "Developers/SDK/AdvancedSDKOps" },
-            { type: "doc", id: "Developers/SDK/Multicall" },
-            { type: "doc", id: "Developers/SDK/ErrorHandling" },
-            { type: "doc", id: "Developers/SDK/TypesAndFunctions" },
-            { type: "doc", id: "Developers/SDK/ArbitraryTokens" },
-          ],
-        },
-        {
-          type: "category",
-          label: "API",
-          items: [
-            { type: "doc", id: "Developers/API/RESTfulAPI" },
-          ],
-        },
-      ],
-    },
-    {
-      type: "doc",
-      id: "Security",
-    },
-    {
       type: "link",
-      label: "Whitepapers",
-      href: 'https://github.com/umi-ag/frostend-v2-resources/tree/main/whitepapers',
-    },
-    {
-      type: "link",
-      label: "Learn In-App",
-      href: 'https://app.frostend.com/pro/education/learn',
-    },
-    {
-      type: "link",
-      label: "Yield Trading Handbook",
-      href: 'https://handbook.frostend.com/',
+      label: "Github",
+      href: 'https://github.com/umi-ag/frostend',
     },
   ],
 };
