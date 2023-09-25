@@ -38,8 +38,8 @@ export default function DocSidebarDesktopContent({ path, sidebar, className }) {
       <Link to="/Home">
         <img src={frostendLogo} className={styles.logo} />
       </Link>
-      <SearchBar />
-      <LocaleDropdownNavbarItem className={clsx(styles.LocalDropdown)} />
+      {/* <SearchBar /> */}
+      {/* <LocaleDropdownNavbarItem className={clsx(styles.LocalDropdown)} /> */}
       <ul className={clsx(ThemeClassNames.docs.docSidebarMenu, styles.menu__margin, "menu__list")}>
         <DocSidebarItems items={sidebar} activePath={path} level={1} />
       </ul>

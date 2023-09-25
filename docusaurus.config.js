@@ -112,7 +112,7 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'cn'],
+    locales: ['en'],
     localeConfigs: {
       en: {
         label: 'English',
@@ -121,13 +121,13 @@ const config = {
         calendar: 'gregory',
         path: 'en',
       },
-      cn: {
-        label: '中文（中国)',
-        direction: 'ltr',
-        htmlLang: 'zh-Hans',
-        calendar: 'gregory',
-        path: 'cn',
-      },
+      // cn: {
+      //   label: '中文（中国)',
+      //   direction: 'ltr',
+      //   htmlLang: 'zh-Hans',
+      //   calendar: 'gregory',
+      //   path: 'cn',
+      // },
     },
   },
 };
