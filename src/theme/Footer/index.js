@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div className={styles.background}>
       <div className={styles.root}>
-        <div className={styles.linkGroup}>
+        {/* <div className={styles.linkGroup}>
           <div className={styles.linkGroupTitle}>Pages</div>
           <a href="https://www.frostend.com/" target="_blank">
             Website
@@ -49,7 +49,7 @@ function Footer() {
           >
             Audits
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
